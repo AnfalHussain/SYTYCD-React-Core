@@ -22,6 +22,7 @@ class AuthorsList extends Component {
       <AuthorCard key={author.id} author={author} />
     ));
 
+
     return (
       <div>
         <h3>Authors</h3>
